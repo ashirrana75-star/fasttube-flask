@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+  <meta charset="UTF-8" />
+  <title>FastTube.pk</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>ویڈیو ڈاؤنلوڈ کریں</h1>
+  <input type="text" id="url" placeholder="یوٹیوب لنک پیسٹ کریں" />
+  <select id="format">
+    <option value="bestaudio">MP3</option>
+    <option value="bestvideo[height<=360]">MP4 360p</option>
+    <option value="bestvideo[height<=720]">MP4 720p</option>
+    <option value="bestvideo[height<=1080]">MP4 1080p</option>
+  </select>
+  <button onclick="download()">ڈاؤنلوڈ کریں</button>
+</body>
+</html>
